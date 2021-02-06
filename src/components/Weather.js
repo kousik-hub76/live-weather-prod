@@ -43,15 +43,17 @@ function Weather() {
         console.log(form.city,form.country);
     };
     return (
-        <div className="weather">
+        <div style={{justifyContent:'center',textAlign:'center'}} className="weather">
             <span className="title">Weather App</span>
             <br/>
 
             <form>
                 <input type="text" className="city" name="city" placeholder="city" onChange={e=>handleChange(e)}/>
-                &nbsp; &nbsp; &nbsp; &nbsp;
+                <br/>
+                
                 <input type="text" className="country" name="country" placeholder="country" onChange={e=>handleChange(e)}/>
-
+                
+                <br/>
                 <button className="getweather" onClick={(e)=>weatherData(e)}>Submit</button>
             </form>
             {weather.data !=undefined ? (

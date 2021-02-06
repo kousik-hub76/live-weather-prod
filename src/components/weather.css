@@ -6,4 +6,19 @@
 .getweather{
     color: rgb(0, 204, 255);
     background-color: rgb(31, 28, 28);
+    margin-top: 10px;
+    
+}
+.weather{
+    padding-block: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.city{
+    margin-top: 10px;
+}
+.country{
+    margin-top: 10px;
 }

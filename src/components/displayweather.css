@@ -1,0 +1,19 @@
+.displayweather{
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+}
+.weatherdetails{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 225, 84);
+    
+    text-align: center;
+    padding: 5px;
+    padding-block: 10px;
+    
+    display: flex;
+    
+    
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import './displayweather.css';
 
 function DisplayWeather(props) {
     const {data}=props;
@@ -14,8 +15,9 @@ function DisplayWeather(props) {
               <span className="cardtitle">
                   {data.name},{data.sys.country}. weather
               </span>
+              &nbsp; &nbsp;
               <span className="cardsubtitle">
-                  As of {new Date().toLocaleTimeString()}
+                  As of Time {new Date().toLocaleTimeString()}
               </span>
               <h1>
                  {Math.floor(data.main.temp - 273.15)}
